@@ -11,7 +11,7 @@
   # languages.rust.enable = true;
   languages.java = {
     enable = true;
-    jdk.package = pkgs.jdk17_headless;
+    jdk.package = pkgs.jdk21_headless;
     maven.enable = true;
   };
 
